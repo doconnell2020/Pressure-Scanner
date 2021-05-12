@@ -1,21 +1,25 @@
 Agilent HPLC/LCMS Pressure Scanner
 ======
 
-File system walker which reads specific files containing the start and end pressure of a HPLC or LCMS run on the Agilent Chemstation software.
+File system walker which reads specific files (named Report00.CSV) containing the start and end pressure of a HPLC or LCMS run on the Agilent Chemstation software.
 
 Installation
 ------------
 
-To install with pip, run:
-
-    pip install pressure_scanner
+Download the pressure_scanner.py file 
+Ensure the appropriate libraries are installed as seen in the import statements.
 
 Quickstart Guide
 ----------------
 
-TODO - fill this in later
+Locate the PATH to your own data folders and edit the source code as required.
+
+Note: The output settings in the Report setting of any and all Methods on your Chemstation Software must eb set to generate .CSV files to work properly.
+This is what the scanner is looking for. Ensure this setting is set up appropriately befor using the program.
 
 Contribute
 ----------
+I would like to see this developed further to monitor standard injections using similar report files and pro-actively detect degradation in these standard injections. 
+This could be achieved by monitoring the height, width, slope and retention time of these standrd injections and determining if they are moving to OOS criteria. 
 
 If you'd like to contribute to Agilent HPLC/LCMS Pressure Scanner, check out https://github.com/doconnell2020/pressure_scanner
