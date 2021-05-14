@@ -7,15 +7,19 @@ Installation
 ------------
 
 Download the pressure_scanner.py file 
-Ensure the appropriate libraries are installed as seen in the import statements.
+Ensure the appropriate libraries are installed as seen in the import statements:
+os
+re
+datetime
+pip install python-dateutil plotly
 
 Quickstart Guide
 ----------------
 
 Locate the PATH to your own data folders and edit the source code as required.
 
-Note: The output settings in the Report setting of any and all Methods on your Chemstation Software must eb set to generate .CSV files to work properly.
-This is what the scanner is looking for. Ensure this setting is set up appropriately befor using the program.
+Note: The output settings in the Report setting of any and all Methods on your Chemstation Software must be set to generate .CSV files to work properly.
+This is what the scanner is looking for. Ensure this setting is set up appropriately before using the program.
 
 Contribute
 ----------
